@@ -1,0 +1,19 @@
+Economic_Journey_of_Blocks
+
+1 - Player
+	1.1 - Player começa com 3 vidas
+	1.2 - O player se move para direita e esquerda, pula e se agacha
+	1.3 - 
+	
+2 - Inimigo Lanceiro
+	2.1 - Vida do inimigo
+	2.2 - Inimigo usa lança como arma e tera dois modos
+		2.2.1 - Lança que ataca se estiver perto
+		2.2.2 - Lança que atira em direção ao player
+			2.2.2.1 - Se atirar a lança o inimigo fica sem a lança e tenta pegala novamente
+	2.3 - 
+	
+3 - Inimigo capacete de guerra
+	3.1 - Vida do inimigo
+	3.2 - Inimigo tem um capacete com um espinho que se o player encostar toma dano
+	3.3 - 
