@@ -35,6 +35,12 @@
   },
   "resources": [
     {"id":{"name":"Game","path":"notes/Game/Game.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_thorn","path":"sprites/spr_thorn/spr_thorn.yy",},},
+    {"id":{"name":"obj_thorn","path":"objects/obj_thorn/obj_thorn.yy",},},
+    {"id":{"name":"obj_collisor_floor","path":"objects/obj_collisor_floor/obj_collisor_floor.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_collisor_floor","path":"sprites/spr_collisor_floor/spr_collisor_floor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
