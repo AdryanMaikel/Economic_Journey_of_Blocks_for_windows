@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objs_player",
+    "path": "folders/Objetos/objs_player.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,7 +28,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_player",
     "path": "sprites/spr_player/spr_player.yy",

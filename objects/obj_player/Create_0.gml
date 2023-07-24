@@ -1,10 +1,11 @@
 /// @description
 // 
 _speed = 2;
-speed_jump = -5;
-amount_jumps = 2;
+speed_jump = -9;
+jumps = 1;
+amount_jumps = jumps;
 jumped = false;
-_gravity = .2;
+_gravity = .5;
 speed_horizontal = 0;
 speed_vertical = 0;
 
@@ -27,20 +28,20 @@ movement = function() {
 		while not place_meeting(x, y + sign(speed_vertical), obj_collisor_floor) {
 			y += sign(speed_vertical);
 		}
+		if speed_vertical > 0 jumped = false;
 		speed_vertical = 0;
-		jumped = false;
 	}
 	y += speed_vertical;
 	
 	
 	// Pulo
-	var _key_jump = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space);
+	var _key_jump = keyboard_check_pressed(ord("W"));// or keyboard_check_pressed(vk_space);
 	if _key_jump and not jumped {
 		speed_vertical = speed_jump;
 		amount_jumps--;
 	}
 	if amount_jumps <= 0 {
-		amount_jumps = 2;
+		amount_jumps = jumps;
 		jumped = true;
 	}
 }
